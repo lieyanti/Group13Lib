@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Group13Lib_Example' do
+  pod 'Group13Lib', :path => '../'
+
+  target 'Group13Lib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
